@@ -1,4 +1,4 @@
-package arielle.mueller.m301037045.ui.dashboard;
+package arielle.mueller.m301037045.ui.home;
 
 //Arielle Mueller
 //Student Number: 301037045
@@ -8,13 +8,13 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class ArielleViewModel extends ViewModel {
+public class MuellerViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public ArielleViewModel() {
+    public MuellerViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is dashboard fragment");
+        mText.setValue("This is animation fragment");
     }
 
     public LiveData<String> getText() {

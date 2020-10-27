@@ -26,7 +26,7 @@ public class MuellerFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         homeViewModel =
                 ViewModelProviders.of(this).get(MuellerViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_arielle, container, false);
+        View root = inflater.inflate(R.layout.fragment_mueller, container, false);
         final TextView textView = root.findViewById(R.id.text_home);
         homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override

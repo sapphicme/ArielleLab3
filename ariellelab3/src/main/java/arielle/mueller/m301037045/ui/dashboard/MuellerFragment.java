@@ -26,7 +26,7 @@ public class ArielleFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         drawingViewModel =
                 ViewModelProviders.of(this).get(ArielleViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_mueller, container, false);
+        View root = inflater.inflate(R.layout.fragment_arielle, container, false);
         final TextView textView = root.findViewById(R.id.text_dashboard);
         drawingViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
