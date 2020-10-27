@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+   Arielle Mueller
+   Student Number: 301037045
+   Sec: 002
+   -->
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/arielle_mobile_navigation"
+    app:startDestination="@+id/arielleNavigation_drawing">
+
+    <fragment
+        android:id="@+id/arielleNavigation_drawing"
+        android:name="arielle.mueller.m301037045.ui.home.MuellerFragment"
+        android:label="@string/drawing_title"
+        tools:layout="@layout/fragment_arielle" />
+
+    <fragment
+        android:id="@+id/arielleNavigation_animation"
+        android:name="arielle.mueller.m301037045.ui.dashboard.ArielleFragment"
+        android:label="@string/animation_title"
+        tools:layout="@layout/fragment_mueller" />
+
+    <fragment
+        android:id="@+id/arielleNavigation_tweening"
+        android:name="arielle.mueller.m301037045.ui.notifications.M301037045Fragment"
+        android:label="@string/tweening_title"
+        tools:layout="@layout/fragment_m301037045" />
+</navigation>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ArielleLab3</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="drawing_title">Drawing</string>
+    <string name="animation_title">Animation</string>
+    <string name="tweening_title">Tweening</string>
+</resources>
